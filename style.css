@@ -1,0 +1,220 @@
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*name and nav bar*/
+
+.topstuff {
+    background:white;
+    color: lightgray;
+    position: static;
+    width: auto;
+    padding: 20px;
+    height: 65px;
+    border-top: 0px;
+    border-bottom: 2px solid black
+}
+
+#namebox {
+    background: #4aaaa5;
+    color: white;
+    margin: 20px;
+    font-size: 13px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#nav-bar {
+    background: white;
+    color: lightgrey;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+/*about me section*/
+
+.index-container {
+    width: 960px;
+    text-align: left;
+    position: static;
+    margin: 40px auto 0px auto;
+    padding-bottom: 0px;
+    border: solid cyan 1px;
+    box-sizing: border-box;
+    z-index: 2;
+    overflow: hidden;  
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+}
+
+.index-box {
+    clear: both;
+    padding: 10px;
+    margin: auto;
+    background: white;
+    color: black;
+}
+
+#mypicture {
+transform: rotate(270deg);
+float: left;
+padding: 30px 0px 0px 30px;
+margin: 0px;
+z-index: 2;
+}
+
+#index-header {
+    clear: both;
+}
+
+#about-me-section {
+    background: whitesmoke;
+    border: 25px;
+    padding: 20px 10px 20px 10px;
+    clear: both;
+    text-align: left;
+    content: normal;
+    margin: 35px;
+}
+
+.index-footer {
+        padding: 30px 0;
+        clear: both;
+        font-size: 12px;
+        color: #ffffff;
+        color: #cccccc;
+        text-align: center;
+        background: #666666;
+        border-top: 8px solid #4aaaa5;
+        height: 50px;
+      }
+      
+}
+
+
+/*contact page stuff*/
+
+#contact {
+    clear: both;
+    background: whitesmoke;
+    padding: 35px;
+}
+
+.form {
+    padding: 15px;
+    width: 96%;
+    margin: 10px;
+    position: relative;
+}
+
+.form label {
+display: block;
+}
+
+.form input {
+    padding: 20px;
+    width: 95%;
+    margin: 15px;
+}
+
+button {
+    background: darkcyan;
+    border: 10px;
+    border-color: cyan;
+}
+
+.box {
+    width: 960px;
+    text-align: left;
+    position: static;
+    margin: 40px auto 0px auto;
+    padding-bottom: 0px;
+    border: solid cyan 1px;
+    box-sizing: border-box;
+    z-index: 1;
+    overflow: hidden;  
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    color: white;
+}
+
+/* portfolio stuff*/
+
+.portfolio-container {
+    clear: both;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-top: solid 3px #ccc
+}
+
+.main-content {
+width: 960px;
+text-align: left;
+position: static;
+background: #ffffff;
+margin-top: 40px;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+padding-bottom: 0;
+border: solid #cccccc 1px;
+box-sizing: border-box;
+z-index: 2;
+overflow: hidden;
+padding: 35px;
+}
+
+#portfolio {
+    background: white;
+    padding: 20px;
+}
+ #main-header {
+     color: #4aaaa5;
+ }
+
+ .portfolio-pictures {
+     background: white;
+     padding: 25px;
+     margin: 20px;
+     width: 960;
+ }
+
+ #port1 {
+     clear: both;
+     float: left;
+     background: #4aaaa5;
+     color: white;
+     position: absolute;
+ }
+
+ .hangman {
+    float: left;
+ }
+
+ #port2 {
+     clear: both;
+     float: left;
+     background: #4aaaa5;
+     color: white;
+     position: absolute;
+ }
+
+ .rpg {
+
+ }
+
+ #port3 {
+     clear: both;
+     background: #4aaaa5;
+     color: white;
+     position: absolute;
+ }
